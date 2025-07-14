@@ -1,0 +1,39 @@
+.container-Titulo {
+  margin-top: 2rem;
+  text-align: center;
+  border: 1px solid black;
+  padding: 1rem;
+  background-color: #f5f5f5;
+}
+
+.gridTecnologias {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  padding: 2rem;
+  margin: 0 auto;
+}
+
+.tecnologia-card {
+  background-color: #e8e8e8;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.tecnologia-card:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.voltarHome {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.3rem;
+}
+
+.gridTecnologias img{
+    height: 50px;
+}
